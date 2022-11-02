@@ -1,0 +1,94 @@
+
+
+body {
+  font-family: 'Mukta', sans-serif;
+  color: #575F7D;
+  line-height: 120%;
+  background-color: #e0e1e2;
+}
+
+h1{
+  font-size: 27px;
+  font-weight: bolder;
+  line-height: 200%;
+}
+
+h2 {
+  font-size: 19px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #575F7D;
+  font-weight: 700;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #243573;
+}
+
+.card {
+  background: whitesmoke;
+  border-radius: 5px;
+  padding: 25px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  text-align: center;
+  margin: 20px 0px;
+  border: 1px solid lightgrey;
+  padding-bottom: 40px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+
+li {
+  list-style-type: none;
+  display: inline;
+  padding: 15px;
+}
+
+.follow_button {
+  font-size: 35px;
+  text-align: center;
+}
+
+.margin {
+  margin-right: 40px;
+}
+
+.btn-ghost {
+  color: #4A4A4A;
+  border: 1px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
